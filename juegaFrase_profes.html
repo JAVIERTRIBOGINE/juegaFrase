@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Uso bootstrop, jquery, un .js con diversar funciones y adjunto hoja estilos añadida -->
+<script src="jquery_2.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="init_profes.js"></script>
+<script src="juegaFrase.js"></script>
+<link rel="stylesheet" href='estilos.css'>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <h1 id="title">BIENVENIDOS AL JUEGA-FRASE</h1>
+      </div>
+      <div class="col-3">
+        <h2 id='notif_profe'>documento profesor</h2>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-10">
+          <div class="form-group">
+            <textarea id="sentence" class="form-control" rows="2"></textarea>
+          </div>
+        </div>
+        <div class="col-2">
+            <div class="form-group">
+              <input id="boton" type="button" value="enviar"/>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" id="reslt"></div>
+    <div id="fms" class="form-grup">
+      <input class="fm" id="10" type="button" value="adjetivos"/>
+      <input class="fm" id="11" type="button" value="verbos"/>
+      <input class="fm" id="12" type="button" value="nombres"/>
+      <input id="validar" type="button" value="validar"/>
+    </div>
+    <div id="tablas" class="row">
+      <div class="col">
+          <table class="table" id="adj">
+            <tr >
+              <th>
+                ADJETIVOS
+              </th>
+            </tr>
+            <tr>
+
+            </tr>
+          </table>
+      </div>
+      <div class="col">
+        <table class="table" id="verb">
+          <tr >
+            <th>
+              VERBOS
+            </th>
+            <tr>
+          </tr>
+
+            </tr>
+        </table>
+      </div>
+      <div class="col">
+        <table class="table" id="nomb">
+          <tr >
+            <th>
+              NOMBRES
+            </th>
+          </tr>
+          <tr >
+
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="from-group">
+      <a href='juegaFrase_alumnos.html'><input id="alumno" type="button" value="ir a seccion alumnos"/></a>
+    </div>
+  </div>
+</body>
+</html>

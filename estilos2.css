@@ -1,0 +1,80 @@
+.wrds{
+  font-size: 3em;
+  color: #578ba8;
+  font-family: sans-serif;
+}
+.fm{
+  width: 33%;
+  height: 55px;
+  margin: 10px auto;
+  font-size: 1.6em;
+}
+#validar {
+  width: 100%;
+  height: 58px;
+  font-size: 2em;
+}
+#notif_profe{
+font-size: 0.8em;
+background-color: #e3dbdb;
+position: absolute;
+top: 33px;
+right: 25%;
+padding: 7px;
+}
+
+#alumno{
+width: 100%;
+height: 80px;
+font-size: 2em;
+margin-top: 30px;
+}
+
+#boton{
+  width: 100%;
+  height: 50px;
+}
+#title{
+  margin: 2% auto;
+  text-align: left;
+  padding:1%;
+  border: 2px solid #727281;
+}
+
+.corrOk{
+  background-color: rgb(13, 126, 27);
+  color: white;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+.corrFail{
+  background-color: rgb(221, 32, 32);
+  color: black;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+.corrRep{
+  background-color: rgb(201, 134, 105);
+  color: rgb(128, 83, 30);
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+#rslt{
+  padding: 10px;
+}
+
+#celdFin{
+    background-color: rgb(16, 172, 177);
+    color: rgb(235, 247, 239);
+    font-size: 3em;
+    text-align: center;
+}
+
+#volvBot {
+  width: 100%;
+  font-size: 1.5em;
+  margin-top: 15px;  
+}

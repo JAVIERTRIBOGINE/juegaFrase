@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery_2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="juegaFrase.js"></script>
+<script src="init_alumnos.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" href='estilos2.css'>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">BIENVENIDOS AL JUEGA-FRASE</h1>
+    <div class="form-group">
+        <input id="boton" type="button" value="TU FRASE ..."/>
+    </div>
+    <div class="jumbotron" id="reslt"></div>
+    <div id="fms" class="form-grup">
+      <input class="fm" id="10" type="button" value="adj"/>
+      <input class="fm" id="11" type="button" value="verb"/>
+      <input class="fm" id="12" type="button" value="nomb"/>
+    </div>
+    <div id="tablas" class="row">
+      <div class="col">
+          <table class="table" id="adj">
+            <tr >
+              <th>
+                ADJETIVOS
+              </th>
+            </tr>
+            <tr>
+
+            </tr>
+          </table>
+      </div>
+      <div class="col">
+        <table class="table" id="verb">
+          <tr >
+            <th>
+              VERBOS
+            </th>
+            <tr>
+          </tr>
+
+            </tr>
+        </table>
+      </div>
+      <div class="col">
+        <table class="table" id="nomb">
+          <tr >
+            <th>
+              NOMBRES
+            </th>
+          </tr>
+          <tr >
+
+          </tr>
+        </table>
+      </div>
+      <div id="colCorrec" class="col-12">
+        <div id="correc"></div>
+      </div>
+      <div class="col">
+        <table id="marco_marc" class="table">
+          <tr >
+            <th>
+              CLICKS
+            </th>
+            <th>
+              ACIERTOS
+            </th>
+            <th>
+              FALLOS
+            </th>
+            <th id="left">
+              PALABRAS QUE FALTAN
+            </th>
+            <th>
+              PORCENTAJE
+            </th>
+          </tr>
+          <tr  id="marcador">
+
+          </tr>
+          <tr id="final">
+
+          </tr>
+        </table>
+
+      </div>
+      </div>
+      <div id="volver" class="from-group">
+        <a href='juegaFrase_profes.html'><input id="volvBot" type="button" value="volver a seccion profesores"/></a>
+      </div>
+    </div>
+</body>
+</html>
