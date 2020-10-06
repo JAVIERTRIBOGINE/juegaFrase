@@ -39,6 +39,8 @@ $(document).ready(function () {
   //  seleccionadas
   $('.fm').click(function () {
         f = ($(this).attr('id') - 10);
+        $(".fm").css('border', 'unset');
+        $(this).css('border', color[f]);
       });
 
   // al clickar en la palabra pueden pasar muchas cosas: o que se seleccione
@@ -49,7 +51,7 @@ $(document).ready(function () {
       wp = $(this).attr('id');
       col = $(this).attr('border');
       console.log(col);
-      if (col === undefined || col == 'none') {
+      if (col == undefined || col == 'none') {
         $(this).css('border', color[f]);
         $(this).attr('border', color[f]);
         valoresArray(adj, nomb, verb, color[f].substring(10), wp, $(this).text());

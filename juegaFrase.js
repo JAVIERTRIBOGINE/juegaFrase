@@ -16,19 +16,22 @@ function repasarArray(array, id) {
 function valoresArray(adj, nomb, verb, color, wPos, word) {
   if (color == 'green') {
     adj.splice(wPos, 1, word);
+    console.log("adjetivos: ", adj);
   }else if (color == 'blue') {
     verb.splice(wPos, 1, word);
+    console.log("colorClick: ", colorClick);
+    console.log("verbo: ", verb);
   }else {
     nomb.splice(wPos, 1, word);
+    console.log("colorClick: ", colorClick);
+    console.log("nombre: ", nomb);
   }
 
 }
 
 function evaluarPalabra(colorClick, colorFam, palabras, palabra) {
-  console.log(colorClick);
-  console.log(colorFam);
-  console.log(palabras);
-  console.log(palabra);
+  console.log("palabras: ", palabras);
+  console.log("palabra: ", palabra);
   for (n = 0; n < palabras.length; n++) {
     if (palabras[n] == palabra) {
       if (colorClick == colorFam) {
